@@ -1,0 +1,108 @@
+.div_position{
+    margin-left: 20%;
+}
+.options{
+    display:flex;
+    width:90%;
+    margin:auto;
+    position:relative;
+}
+.tournament_sidebar_link{
+    text-decoration:none;
+    color:black;
+  }
+.tournament_sidebar_link:hover{
+    text-decoration:none;
+    color:black;
+  }
+.options_design{
+    padding: 2%;
+    flex-basis: 50%;
+    border: 1px solid ;
+    font-family:Poppins,sans-serif;
+    font-weight:600;
+    text-align:center;
+    z-index: 100;
+}
+.options_design:hover{
+    cursor:pointer;
+}
+.tournament_option_slider{
+    position: absolute;
+    background: blue;
+    left: 0;
+    height: 100%;
+    top: 0;
+    padding: 3%;
+    min-width: 50%;
+    transition:all 500ms;
+    z-index: 1;
+}
+.left_option_radius{
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+.right_option_radius{
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+.active_option_slider_2{
+    left: 50%!important;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    transition:all 500ms;
+}
+.active_option_slider_1{
+    left: 0%!important;
+    z-index:100!important;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    transition:all 500ms;
+}
+.font_color{
+    color:white;
+    transition:color 502mss ease-in;
+    border:1px solid black!important;
+}
+@media (min-width: 1281px) {
+  
+   .options{
+    display:flex;
+    width:73%;
+    position:relative;
+    margin:initial!important;
+    }
+    }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+   .options{
+    display:flex;
+    width:73%;
+    position:relative;
+    margin:initial!important;
+}
+    
+  }
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  {
+    .div_position{
+        margin-left:25%!important;
+    }
+  }
+@media screen and (max-width: 767px){
+    .div_position{
+        margin-left:0%!important;
+    }
+    .options{
+        width:100%
+    }
+}

@@ -1,0 +1,209 @@
+.BattingScoreboard .table{
+    width: 77%!important;
+    border: 1px solid #dedede;
+    
+}
+.BattingScoreboard th{
+   text-align:center;
+}
+.BattingScoreboard tr{
+    height:46px
+ }
+.BattingScoreboard .text_alignment{
+    display:flex;
+    flex-direction: column;
+    font-size:14px
+}
+.BattingScoreboard .playerstatus{
+    opacity: 0.6;
+    font-size: 12px;
+}
+.BattingScoreboard .player_name{
+    text-align:left
+}
+.BattingScoreboard td{
+    color:black!important;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+}
+.BattingScoreboard .batting_flagicon{
+    width: 5%;
+}
+.player_details{
+    width: 53%;
+}
+.BattingScoreboard .batting_text{
+    padding-right: 4%;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+    padding-bottom: 1%;
+}
+.BattingScoreboard .header_text{
+    text-align:left;
+    color:black;
+}
+.baticon{
+    width:4%
+}
+
+@media (min-width: 1281px) {
+  
+    .baticon{
+        width:4%
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .baticon{
+        width:4%
+    }
+    
+  }
+  @media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Portrait */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .BattingScoreboard .table {
+        width: 96%!important;
+      }
+}
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .baticon{
+        width:4%
+    }
+    .BattingScoreboard .table {
+        width: 98%!important;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .baticon {
+        width: 4%;
+    }
+    .BattingScoreboard .table {
+        width: 94%!important;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .baticon{
+        width:19%;
+        display:none;
+    }
+    .BattingScoreboard .table {
+        width: 99%!important;
+        margin: auto;
+    }
+    .BattingScoreboard .batting_flagicon{
+        width: 13%!important;
+    }
+    .batting_align{
+        background: #cccccc;
+        padding-right: 11%;
+        border-top-right-radius: 19px;
+        border-bottom-right-radius: 19px;
+        padding-bottom: 3%;
+        font-size: 12px;
+    }
+    .player_details{
+        width: 53%;
+    }
+    .BattingScoreboard th{
+        font-size:12px
+     }
+     .BattingScoreboard td{
+        font-size:12px;
+     }
+     .BattingScoreboard .text_alignment{
+        font-size:10px
+    }
+    .BattingScoreboard tr {
+        height: 37px;
+    }
+  }
+  @media (min-width: 320px) and (max-width: 480px) {
+  
+    .baticon{
+        width:19%;
+        display:none;
+    }
+    .BattingScoreboard .table {
+        width: 99%!important;
+        margin: auto;
+    }
+    .BattingScoreboard .batting_flagicon{
+        width: 13%!important;
+        
+    }
+    .batting_align{
+        /* background: #cccccc; */
+        padding-right: 11%;
+        border-top-right-radius: 19px;
+        border-bottom-right-radius: 19px;
+        padding-bottom: 3%;
+        font-size: 12px;
+    }
+    .player_details{
+        width: 53%;
+    }
+    .BattingScoreboard th{
+        font-size:12px
+     }
+     .BattingScoreboard td{
+        font-size:12px;
+     }
+     .BattingScoreboard .text_alignment{
+        font-size:10px
+    }
+    .BattingScoreboard .playerstatus {
+        font-size: 9px;
+    }
+    .BattingScoreboard tr {
+        height: 37px;
+    }
+  }
+  

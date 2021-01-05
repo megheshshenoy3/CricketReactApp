@@ -1,0 +1,149 @@
+.header_flag_div{
+    display:flex;
+}
+.team1{
+    flex-basis: 35%;
+    justify-content: flex-end;
+}
+.team_name_text{
+    text-align: right;
+}
+.team1_name{
+    margin-right: 4%;
+}
+.header_flag_div .image_div{
+    height: 48%;
+}
+.image_custom{
+    height: 99%;
+}
+.winner_style{
+    border: 3px solid #f7fff7;
+    outline: 3px solid #7fd47f;
+}
+.team2{
+    flex-direction: row-reverse;
+}
+.header_flag_div .name_score{
+    display:flex;
+    flex-direction:column;
+    font-family: 'Poppins', sans-serif;
+}
+.header_flag_div .score{
+    font-weight:600;
+}
+@media (min-width: 1281px) {
+  
+    .header_flag_div .image_div{
+        height: 88%;
+    }
+    .header_flag_div .name_score{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .header_flag_div .image_div{
+        height: 88%;
+    }
+    .header_flag_div .name_score{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .header_flag_div .image_div{
+        height: 88%;
+    }
+    .header_flag_div .name_score{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .header_flag_div .image_div{
+        height: 88%;
+    }
+    .header_flag_div .name_score{
+        font-size: 16px;
+    }
+    .header_flag_div .name_score{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .header_flag_div .image_div{
+        height: 48%;
+    }
+    .header_flag_div .name_score{
+        font-size:12px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .flag_parent_class .match_status_div {
+        flex-basis: none;
+        text-align: center;
+        width: 22%;
+    }
+    .header_flag_div{
+        width: 39%;
+    }
+    
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .header_flag_div .image_div{
+        height: 23%;
+    }
+    .header_flag_div .name_score{
+        font-size:12px;
+        margin-top: none!important; 
+        margin-bottom: none!important;
+    }
+    .flag_parent_class .match_status_div {
+        flex-basis: none;
+        text-align: center;
+        width: 22%;
+    }
+    .header_flag_div{
+        width: 34%;
+    }
+   
+  }

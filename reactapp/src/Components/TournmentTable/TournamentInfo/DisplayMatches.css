@@ -1,0 +1,312 @@
+
+.match_display_parent{
+    display:flex;
+    width:73%;
+    padding: 2% 1%;
+    border-top: 0.8px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+   
+    border-radius: 6px;
+}
+
+.match_status{
+    font-family: Poppins,sans-serif;
+    opacity: 0.8;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    flex-basis: 27%;
+    justify-content: center;
+}
+.match_display_parent:hover:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background: #1977ff;
+    left: 0;
+    border-radius: 5px 0 0 5px;
+}
+.match_display_parent:hover{
+    transform: scale(1.01);
+    box-shadow: 0 3px 10px rgba(49,49,50,.15);
+    cursor:pointer;
+}
+.match_display_parent:hover:after{
+    content: "";
+    position:absolute;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background: #1977ff;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+}
+.match_display_parent .match_dateandplace{
+    display: flex;
+    flex-basis: 25%;
+    height: 57px;
+}
+.match_display_parent .match_date {
+    font-size: 16px;
+    font-weight: 600;
+}
+.match_display_parent .match_time{
+    font-size: 14px;
+}
+.match_display_parent .date_time{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    border-right: 1px solid;
+    font-family: Poppins,sans-serif;
+    justify-content: center;
+    align-items: center;
+
+}
+.league_section{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    border-right:1px solid;
+}
+.match_display_parent .match_number_place{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid;
+    flex-basis: 50%;
+    align-items: center;
+    font-family: Poppins,sans-serif;
+    justify-content: center;
+}
+.match_display_parent .match_number{
+    font-size: 16px;
+    font-weight: 600;
+}
+.team1 .team1name{
+    font-size: 14px;
+    font-family:Poppins,sans-serif;
+}
+.team2 .team2name{
+    font-size: 14px;
+    font-family:Poppins,sans-serif;
+}
+.vs_text{
+    opacity:0.8;
+}
+.match_display_parent .match_city{
+    font-size: 14px;
+}
+.match_display_parent .league_block{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column; 
+}
+.inner_div{
+    display: flex;
+    justify-content: center;
+    font-family:Poppins,sans-serif;
+}
+.match_display_parent .league_name{
+    text-align:center;
+    font-family:Poppins,sans-serif;
+}
+.match_display_parent .league_teams{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.matches_between .team1 {
+    flex-basis: 35%;
+}
+.matches_between .team1shortname{
+    display:none;
+}
+.team2shortname{
+display:none;
+}
+.league_block .vs_text{
+
+}
+.matches_between{
+    display: flex;
+    justify-content: center;
+}
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.match_display_parent .teamlogo{
+    width: 52px;
+    height: 34px;
+    margin-left: 6px;
+    margin-right: 6px;
+    
+}
+.matches_between .team1 {
+    align-items: center;
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-basis: 35%;
+    justify-content: flex-start!important;
+    font-family:Poppins,sans-serif;
+}
+.matches_between .team2{
+    width: 50%;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    display: flex;
+    
+}
+.match_display_parent .team2{
+align-items:center;
+}
+.match_date{
+    font-size:14px
+}
+.parent_div_teams{
+    display:flex;
+    justify-content:flex-start;
+}
+
+@media screen and (max-width: 767px){
+    .match_display_parent{
+        flex-direction: column!important;
+        width: 96%;
+        margin: auto;
+        margin-top:2%!important;
+        background: white;
+    }
+    .match_display_parent .match_number {
+       font-size: 10px;
+       font-weight: 600;
+     }
+    .spacing_inbetween{
+        flex:1;
+    }
+    .date_time{
+        display:flex;
+        flex-direction: row!important;
+        border:none!important;
+    }
+    .match_date{
+        font-size:10px!important
+    }
+    .match_time{
+        font-size: 10px!important;
+    }
+    .date_time{
+        flex-basis:auto!important;
+        padding-left: 1%;
+    }
+    .match_display_parent .match_city {
+        font-size: 10px!important;
+    }
+    .match_display_parent .match_dateandplace {
+        height: 33px;
+    }
+    .match_display_parent .match_number_place {
+        flex-direction: row!important;
+        flex-basis:auto!important;
+        padding-right:1%;
+        border:none!important;
+    }
+    .inner_div {
+      font-size:12px;
+      opacity:0.8;
+    }
+    .league_section{
+        border:none!important;
+        padding-bottom: 6%;
+    }
+    .team {
+        margin-left: 11%;
+    }
+    .matches_between .team1name{
+        display:none;
+    }
+    .matches_between .team2name{
+        display:none;
+    }
+    .team1shortname{
+        font-size:10px;
+        display:inherit;
+    }
+    .team2shortname{
+        font-size:10px;
+        display:inherit;
+    }
+    .match_display_parent .teamlogo {
+        width: 37px;
+        height: 25px;
+    }
+    .match_status{
+        background: #f1f2f3;
+        padding: 3%;
+        width: 98%;
+        margin: auto;
+        border-radius: 5px;
+        font-size: 10px;
+        color:black;
+        opacity:1!important;
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+    .match_display_parent {
+        width: 97%;
+    }
+    .match_date{
+        font-size: 14px!important;
+    }
+    .match_time{
+        font-size:12px!important;
+    }
+    .match_number{
+        font-size:14px!important;
+    }
+    .match_city{
+        font-size:12px!important;
+    }
+    .team1name{
+        font-size:12px!important;
+    }
+    .team2name{
+        font-size:12px!important;
+    }
+    .team{
+        margin-left:1%;
+    }
+    .league_section{
+        flex-basis:55%!important;
+    }
+    .match_status{
+        font-size:10px!important
+    }
+    .match_display_parent .match_dateandplace {
+        flex-basis: 28%;
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait)
+  {
+
+  }
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape)
+  {
+
+  }

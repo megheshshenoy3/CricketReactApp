@@ -1,0 +1,37 @@
+.card-img, .card-img-bottom, .card-img-top {
+    flex-shrink: 0;
+    width: 54%!important;
+}
+.card{
+    width: 54%;
+    height: 218px;
+    border:none!important;
+}
+.card-title {
+    text-align: center;
+}
+
+.image_design{
+    margin-left: 20%;
+    margin-top: 19%;
+    transform: scale(1);
+    transition:transform 1s ease;
+}
+.countries_parent .card:hover  .image_design{
+    box-shadow: 2.407px 3.195px 16px 0 rgba(0,0,0,.3);
+    border: 2px solid white;
+    transform: scale(1.1);
+    transition:transform 1s ease;
+}
+.countries_parent .card:hover {
+    /* box-shadow: 2.407px 3.195px 16px 0 rgba(0,0,0,.3); */
+    /* border: 1px solid #c1daff!important;
+    outline-color: #c1daff;
+    outline-style: solid;
+    /* outline: inherit; */
+    outline-width: medium;
+    cursor:pointer;
+    border: 3px solid #c1daff!important;
+    outline-color: #c1daff;
+
+}

@@ -1,0 +1,78 @@
+.text_overlap{
+    position: absolute;
+    left: 7%;
+    color: white;
+    font-size:14px;
+    top: 66%;
+    text-align: center;
+    width: 82%;
+    font-family:Poppins,sans-serif;
+    font-weight:800;
+}
+.venue_image_design{
+    width:100%;
+    height:185px;
+}
+.venue_cards_div{
+    overflow:hidden;
+    border-radius:6px;
+}
+.venue_cards_div:hover img{
+    transform:scale(1.5);
+    transition:all 0.3s ease-in;
+}
+.venue_cards_div:hover{
+    outline:5px solid #c1daff;
+}
+/* .venue_image_design:hover{
+    transform:scale(1.5);
+    transition:all 0.3s ease-in;
+} */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  {
+    .venue_image_design {
+        width: 100%;
+        height: 162px;
+    }
+
+  }
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait)
+  {
+    .venue_image_design {
+        width: 100%;
+        height: 162px;
+    }
+  }
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape){
+
+  }
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape)
+  {
+    .venue_image_design {
+        width: 100%;
+        height: 162px;
+    }
+    .venue_cards_div {
+        overflow: hidden;
+        border-radius: 6px;
+        width: 85%;
+    }
+  }

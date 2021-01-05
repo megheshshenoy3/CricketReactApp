@@ -1,0 +1,204 @@
+.tournament_row{
+    margin-left: 21%!important;
+    width:50%;
+    margin-top: 2%;
+    position:relative;
+    transition: all .1s ease-in-out;
+    color:black;
+}
+.tournament_row:hover{
+    transform: scale(1.01);
+    box-shadow: 0 3px 10px rgba(49,49,50,.15);
+}
+.sidebar_link{
+    text-decoration:none;
+
+  }
+.sidebar_link:hover{
+    text-decoration:none;
+  }
+.result_text{
+    margin-left:21%;
+    font-family: Poppins,sans-serif;
+    font-weight:600;
+    margin-top:2%;
+}
+.tournament_row:hover:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background: #1977ff;
+    left: 0;
+    border-radius: 5px 0 0 5px;
+}
+.tournament_search_bar_parent{
+    margin-left:20%
+}
+
+.tournament_row:hover:after{
+    content: "";
+    position:absolute;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    background: #1977ff;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+}
+/* Search--Bar */
+.tournament_search_bar_parent{
+    margin-left: 28%;
+    margin-top: 3%;
+}
+.tournament_search_bar{
+    display: flex;
+    border: 1px solid;
+    width: 52%;
+    border-radius: 35px;
+    padding: 1%;
+}
+.tournament_search_bar .tournament_input_box{
+    flex-basis: 94%;
+    border: none;
+    background: transparent;
+}
+.tournament_search_bar .search_logo_div{
+    font-size:14px
+}
+.tournament_search_bar .tournament_input_box:focus{
+    outline:none;
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  {
+
+  }
+/* Portrait iPad Pro */
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait)
+  {
+    .tournament_search_bar {
+        width: 57%;
+    }
+  }
+ /* Landscape iPad Pro */
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape)
+  {
+    .tournament_search_bar_parent {
+        margin-left: 24%;
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .tournament_row{
+        margin-left: 24%!important;
+        width: 71%;
+    }
+    .tournament_search_bar {
+        width: 78%;
+    }
+    .tournament_search_bar_parent {
+        margin-left: 35%;
+    }
+    .result_text {
+        font-size:14px;
+        margin-left: 25%;
+    }
+}
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .tournament_row{
+        margin-left: 24%!important;
+        width: 71%;
+    }
+    .tournament_search_bar {
+        width: 78%;
+    }
+    .result_text {
+        font-size:14px;
+        margin-left: 25%;
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  @media screen and (max-width: 767px){
+.tournament_search_bar_parent {
+    margin-left: 11%;
+    margin-top: 3%;
+}
+.tournament_input_box {
+    flex-basis: 90%;
+    border: none;
+    background: transparent;
+}
+.tournament_search_bar {
+    display: flex;
+    border: 1px solid;
+    width: 90%;
+    border-radius: 35px;
+    padding: 1%;
+}
+.tournament_row{
+    background:white!important;
+    margin-left: 4%!important;
+    width:50%;
+    border-radius:8px;
+}
+.result_text {
+    font-size:12px;
+    margin-left: 5%;
+}
+}
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .tournament_row{
+    margin-left: 21%;
+    width:50%;
+    margin-top: 3%;
+    position:relative;
+    transition: all .1s ease-in-out;
+}
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .tournament_row{
+    width:90%!important;
+   }
+   .tournament_search_bar {
+    width: 90%!important;
+    }
+   .tournament_search_bar .tournament_input_box {
+    flex-basis: 88%!important;
+
+    }
+  }
+  

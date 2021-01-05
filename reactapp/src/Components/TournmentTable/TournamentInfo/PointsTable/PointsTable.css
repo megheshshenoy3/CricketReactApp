@@ -1,0 +1,109 @@
+.point_table td{
+    color:black;
+    text-align:center;
+    font-family: Poppins,sans-serif;
+}
+.point_table th{
+    color:black;
+    text-align:center;
+    opacity:0.6;
+    font-family: Poppins,sans-serif;
+}
+.team_image{
+    width:34px;
+    border-radius:4px;
+}
+.team_name{
+    padding-left: 2%;
+}
+.point_table table{
+    width: 97%;
+    border-radius:3px;
+    border: 1px solid #e8e8e8;
+}
+.point_table .table thead th {
+    padding: 0.4rem;
+    background:#eff0f2
+}
+.point_table .table td {
+    padding: 1.1rem;
+}
+.teamnamelogo{
+    display:flex;
+}
+.on_shrink_display{
+    display:none
+}
+.on_wide_display{
+    display:table-cell;
+}
+@media screen and (max-width: 767px){
+    .point_table table{
+       margin:auto;
+    }
+    .point_table td{
+        font-size:12px;
+    }
+    .point_table th{
+        font-size:12px;
+    }
+    .point_table .table td {
+        padding: 0.78rem!important;
+    }
+    .on_shrink_display{
+        display:table-cell;
+    }
+    .on_wide_display{
+        display:none;
+    }
+    .point_table table{
+        background: white;
+    }
+  }
+  @media (min-width: 1281px) {
+  
+    .point_table table{
+        width: 73%;
+        border: 1px solid #e8e8e8;
+    }
+     
+   }
+   
+   /* 
+     ##Device = Laptops, Desktops
+     ##Screen = B/w 1025px to 1280px
+   */
+   
+   @media (min-width: 1025px) and (max-width: 1280px) {
+     
+    .point_table table{
+        width: 73%;
+        border: 1px solid #e8e8e8;
+    }
+     
+   }
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+{
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait)
+{
+
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape)
+  {
+
+  }

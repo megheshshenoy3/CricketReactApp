@@ -1,0 +1,45 @@
+.venue_parent_class{
+margin-left:15%;
+}
+.margin_class{
+    margin-top:4%
+}
+@media (min-width: 576px){
+.col-sm-4 {
+    margin-top: 2%;
+}
+} 
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  {
+      .venue_parent_class{
+         margin-left: 24%;
+     }
+
+  }
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait)
+  {
+    .venue_parent_class{
+        margin-left: 24%;
+    }
+  }
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape){
+
+  }
+@media screen and (max-width: 767px){
+    .venue_parent_class{
+        margin-left: 5%;
+   }
+  }

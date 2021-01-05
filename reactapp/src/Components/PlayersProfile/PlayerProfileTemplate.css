@@ -1,0 +1,60 @@
+.personal_info_div{
+    border: 1px solid #cac7c7;
+    margin-top: 3%;
+    margin-left: -2%;
+    border-radius: 8px;
+    width: 100%;
+    z-index: 1;
+}
+.personal_info_div div{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+.child_div{
+    padding: 13px;
+    /* border: 1px solid; */
+    border-bottom: 1px solid;
+    width: 100%;
+    display:flex
+}
+.div_background{
+    background:#f0f8ff
+}
+.personal_info_div .row{
+    background:none;
+}
+.border_custom{
+    border:none;
+    border-bottom: 3px solid #adadad;
+}
+.custom_text_design{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+}
+.text_bio{
+    width: 90%;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .personal_info_div{
+    margin-left: -5%;
+}
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .personal_info_div{
+    margin-left: -5%;
+}
+    
+  }

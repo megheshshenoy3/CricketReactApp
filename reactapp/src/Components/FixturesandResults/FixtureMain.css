@@ -1,0 +1,163 @@
+.months_text{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.year_text{
+
+}
+.month_cell{
+    padding: 0.9% 3% 1% 3%;
+    border-right: 1px solid #c8c9cb;
+}
+.month_cell:hover{
+    cursor:pointer;
+    outline-style: solid;
+    outline: 2px solid #c1daff;
+    
+    /* background-color: #1977ff; */
+}
+.parent_monthyear_div{
+    display: flex;
+    margin-left: 21%;
+    margin-top: 4%;
+    background: #eff0f2;
+    height: 71px;
+    width: 66%;
+    border-radius: 9px;
+}
+.parent_monthyear_div .active::before{
+
+
+}
+.parent_monthyear_div .slide.active{
+    content: "";
+    position: relative!important;
+    background-color: #1977ff;
+    transform: translateX(0)scale(1)!important;
+    color:white;
+}
+.parent_monthyear_div .slide::before{
+    content: "";
+    position:absolute;
+    bottom: -2px;
+    height: 6px;
+    width: 100%;
+    background:#1977ff;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+     border-radius: 5px 5px 0 0;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    transition: all ease .3s;
+    -webkit-transform: translateX(0) scale(0);
+    -moz-transform: translateX(0) scale(0);
+    -ms-transform: translateX(0) scale(0);
+    -o-transform: translateX(0) scale(0);
+    transform: translateX(0) scale(0);
+    
+}
+.results_section{
+    margin-top: 5%;
+    
+}
+.parent_monthyear_div .slide::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    height: 6px;
+    width: 100%;
+    background: #3679da;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    transition: all ease .3s;
+    -webkit-transform: translateX(0) scale(0);
+    -moz-transform: translateX(0) scale(0);
+    -ms-transform: translateX(0) scale(0);
+    -o-transform: translateX(0) scale(0);
+    transform: translateX(0) scale(0);
+}
+@media (min-width: 1281px) {
+    .parent_monthyear_div{
+
+    }
+  }
+    
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .parent_monthyear_div{
+        overflow-x:scroll;
+        margin-left: 25%;
+        width: 72%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .parent_monthyear_div{
+        overflow-x:scroll;
+        margin-left: 25%;
+        width: 72%!important;
+    }
+    
+  }
+
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .parent_monthyear_div{
+        overflow-x: scroll;
+        background: white;
+        margin-left: 0%;
+        width: 99%;
+        
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .parent_monthyear_div{
+        overflow-x: scroll;
+        background: white;
+        margin-left: 0%;
+        width: 100%;
+    
+    }
+}

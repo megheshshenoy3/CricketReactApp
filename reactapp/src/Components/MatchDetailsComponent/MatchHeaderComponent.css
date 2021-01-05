@@ -1,0 +1,297 @@
+.match_info{
+    display:flex;
+    padding-bottom: 10px;
+    width: 91%;
+    margin:auto;
+    border-bottom: 1px solid #e8e8e8;
+}
+.match_info span:last-child{
+    flex-basis: 25%;
+    text-align: right;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.parent_slider{
+    width: 77%;
+    padding: 2% 0%;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+}
+.parent_slider .team_options{
+    padding:1% 22%;
+    height: 45px;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+.parent_slider .team_options::before{
+    content: "";
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 4px;
+    width: 58%;
+    background: #1977ff;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    transition: all ease .3s;
+    -webkit-transform: translateX(0) scale(0);
+    -moz-transform: translateX(0) scale(0);
+    -ms-transform: translateX(0) scale(0);
+    -o-transform: translateX(0) scale(0);
+    transform: translateX(0) scale(0);
+}
+.parent_slider .active::before{
+    content:" ";
+    transform: translateX(0) scale(1);
+}
+
+.parent_class_div .match_result_text{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.match_info span:first-child{
+    flex-basis: 25%;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.match_info span:nth-child(2){
+    flex-basis: 50%;
+    text-align:center;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.flag_parent_class {
+    display: flex;
+    padding-top: 22px;
+    width: 100%;
+}
+.flag_parent_class:first-child{
+    flex-basis:10%
+ }
+.parent_class_div{
+    box-shadow: 0 3px 8px rgba(0,0,0,.2);
+}
+.flag_parent_class .match_status_div{
+    flex-basis: 29%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.parent_class_div .man_of_thematch_div{
+    background: #f5f5f5;
+    padding: 2%;
+    display: flex;
+    width: 100%;
+    margin: 0!important;
+}
+
+@media (min-width: 1281px) {
+  
+    .parent_class_div {
+    width: 77%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .parent_class_div {
+    width: 77%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  @media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .parent_class_div {
+        width: 96%;
+    }
+  }
+
+/* Portrait */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .parent_class_div {
+        width: 96%;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .parent_class_div {
+        width: 77%important;;
+    }
+}
+@media only screen 
+and (min-width: 1024px) 
+and (max-height: 1366px) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+    .parent_slider .team_options {
+        padding: 1% 20%important;;    
+     }
+}
+
+/* Portrait */
+@media only screen 
+and (min-width: 1024px) 
+and (max-height: 1366px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+    .parent_slider .team_options {
+        padding: 2% 22%!important;
+    }
+}
+
+/* Landscape */
+@media only screen 
+and (min-width: 1024px) 
+and (max-height: 1366px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+    .parent_slider .team_options {
+        padding: 2% 22%;
+    }
+    .parent_slider {
+        width: 96%;
+    }
+}
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .parent_class_div {
+        width: 98%;
+    }
+     .match_info{
+         width:93%
+     }
+     .match_info span:nth-child(2){
+        font-size: 14px;
+     }
+     .match_info span:first-child{
+        font-size: 14px;
+        flex-basis: 35%;
+    }
+    .match_info span:last-child{
+        font-size: 14px;
+    }
+    .parent_slider {
+        width: 98%;
+    }
+    .parent_slider .team_options {
+        padding: 2% 20%;
+    }
+    
+  }
+ 
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .parent_class_div {
+    width: 94%;
+}
+.match_info span:nth-child(2){
+    font-size: 14px;
+ }
+ .match_info span:first-child{
+    font-size: 14px;
+    flex-basis: 25%;
+    
+  }
+  .parent_slider .team_options {
+    padding: 2% 21%;
+  } 
+  .parent_slider {
+    width: 94%;
+}
+  .match_info span:last-child{
+    font-size: 14px;
+}
+  }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .match_info{
+        display:none;
+    }
+    .match_status_div{
+       font-size:12px; 
+    }
+    .match_result_text{
+        text-align: center;
+        margin-top: -7%;
+        font-size: 12px;
+     }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .match_info{
+        display:none;
+    }
+    .match_status_div{
+        font-size:12px; 
+     }
+     .parent_class_div{
+         width:94%;
+         margin:auto;
+     }
+     .match_result_text{
+        text-align: center;
+        margin-top: -7%;
+        font-size: 12px;
+     }
+     .parent_slider{
+        width: 99%;
+        margin:auto;
+     }
+     .parent_slider .team_options {
+        padding: 2% 17%;
+     }
+     
+    
+  }

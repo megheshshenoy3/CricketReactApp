@@ -1,0 +1,200 @@
+.tournament_parent_class{
+    display: flex;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8
+}
+.tournament_parent_class .tournament_dates{
+    display: flex;
+    flex-basis: 50%;
+    text-align: center;
+    justify-content: flex-end;
+    border-right: 1px solid #e8e8e8;
+    padding: 2%;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.tournament_parent_class .total_formats{
+    flex-basis: 50%;
+    text-align: center;
+    padding: 2%;
+    border-right: 1px solid #e8e8e8;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.tournament_parent_class .tournamentname{
+    text-align: center;
+    flex-basis: 28%;
+    padding: 2%;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600;
+    color:black;
+}
+.tournament_parent_class .format_dates_parent{
+    display: flex;
+    flex-basis: 59%;
+    color:black;
+}
+
+
+
+@media (min-width: 1281px) {
+  
+   .tournament_parent_class .tournament_dates{
+    font-size:16px;
+}
+.tournament_parent_class .total_formats{
+    font-size:16px;
+
+}
+.tournament_parent_class .tournamentname{
+    font-size:16px;
+
+}
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+   .tournament_parent_class .tournament_dates{
+    font-size:16px;
+
+}
+.tournament_parent_class .total_formats{
+    font-size:16px;
+
+}
+.tournament_parent_class .tournamentname{
+    font-size:16px;
+
+}
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+   .tournament_parent_class .tournament_dates{
+    font-size:13px;
+
+}
+.tournament_parent_class .total_formats{
+    font-size:13px;
+}
+.tournament_parent_class .tournamentname{
+    font-size:13px;
+}
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+   .tournament_parent_class .tournament_dates{
+    font-size:13px;
+
+}
+.tournament_parent_class .total_formats{
+    font-size:13px;
+
+}
+.tournament_parent_class .tournamentname{
+    font-size:13px;
+
+}
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+   .tournament_parent_class .tournament_dates{
+    font-size:13px;
+
+}
+.tournament_parent_class .total_formats{
+    font-size:13px;
+
+}
+.tournament_parent_class .tournamentname{
+    font-size:13px;
+
+}
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+   .tournament_parent_class .tournament_dates{
+    display: flex;
+    flex-basis: 27%;
+    text-align: center;
+    justify-content: flex-end;
+    border-right: 1px solid #e8e8e8;
+    padding: 2%;
+    font-family: 'Poppins', sans-serif;
+}
+.tournament_parent_class .total_formats{
+    flex-basis: 32%;
+}
+.tournament_parent_class .tournamentname{
+    flex-basis: 28%;
+}
+    
+  }
+  @media screen and (max-width: 767px){
+  .tournament_parent_class .format_dates_parent{
+   flex-direction:column;
+   padding-left: 1%;
+  }
+  .tournament_parent_class .tournament_dates{
+    border:none;
+    font-size:12px;
+    justify-content: inherit!important;
+  }
+  .tournament_parent_class .total_formats{
+    border:none;
+    font-size:12px;
+    text-align: inherit!important;
+  }
+  .tournament_parent_class .format_dates_parent{
+    border-right: 1px solid #e8e8e8;
+    flex-basis: 43%;
+  }
+  .tournament_parent_class .tournamentname {
+    flex-basis: 57%;
+    font-size:14px;
+    text-align:inherit;
+}
+.tournament_row {
+    width: 92%!important;
+}
+  
+}

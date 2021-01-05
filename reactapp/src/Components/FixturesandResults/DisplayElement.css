@@ -1,0 +1,386 @@
+.match_display_parent_div{
+    margin-left: 26%;
+}
+.match_display_parent_div .row{
+    width: 75%;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.match_display_parent_div .col-sm-2{
+    border-right: 1px solid #e8e8e8;
+}
+.match_display_parent_div .match_date_time{
+    text-align: center;
+}
+.match_display_parent_div .match_number_venue{
+    text-align: center;
+}
+.match_display_parent_div .col-sm-5{
+    text-align: center;
+    border-right: 1px solid #e8e8e8;
+}
+.match_display_parent_div .teams{
+    display: flex;
+    margin-top: 3%;
+}
+.match_display_parent_div .team1{
+    /* padding-left: 19%; */
+    padding-right: 5%;
+}
+.match_display_parent_div .vs_text{
+    padding-right: 5%;
+}
+.match_display_parent_div .match_date{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.match_display_parent_div .match_time{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+
+}
+.match_display_parent_div .match_number{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.match_display_parent_div .venue{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.match_display_parent_div .vs_text_score{
+    flex: 1;
+}
+.match_display_parent_div .team1score{
+    font-weight: 600;
+}
+.match_display_parent_div .team2score{
+    font-weight: 600;
+}
+.match_display_parent_div .touranament_name{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    opacity: .8;
+
+}
+.match_display_parent_div .team1 {
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.match_display_parent_div .vs_text{
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.match_display_parent_div .team2{
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.match_display_parent_div .displaytext_results{
+    font-family: 'Poppins', sans-serif;
+    padding-top:6%;
+    font-size: 12px;
+}
+.match_display_parent_div .row:hover{
+   border-radius: 5px;
+   border-left:4px solid #1977ff;
+   border-right:4px solid #1977ff;
+   transition: all .1s ease-in-out;
+   box-shadow: 0 3px 10px rgba(49,49,50,.15);  
+   transform: scale(1.01);  
+   cursor: pointer;
+}
+.match_display_parent_div .score_text{
+    font-size: 19px;
+}
+.parent_mobile_class{
+    margin-left: 4%;
+    background: white;
+    width: 371px;
+    margin-top: 6%!important;
+    border-radius: 11px;
+    box-shadow: 1.035px 3.864px 4.75px 0.25px rgba(0,0,0,.2)
+}
+.parent_mobile_class .mobile_date_time{
+    display:flex;
+}
+.parent_mobile_class .match_date{
+    font-size: 12px;
+    padding-right: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+.parent_mobile_class .mobile_space{
+    flex: 1;
+}
+.parent_mobile_class .mobile_text_bold{
+    font-weight: 600;
+}
+.parent_mobile_class .mobile_matchnumber{
+    font-size: 12px;
+    padding-right: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+.parent_mobile_class .mobile_tournament_name{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 12px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.parent_mobile_class .mobile_teams{
+    display: flex;
+    margin-left: 33%;
+    padding-top: 4%;
+    font-size: 12px;
+}
+.parent_mobile_class .mobile_scores{
+    display: flex;
+    margin-left: 33%;
+    padding-bottom: 6%;
+}
+.parent_mobile_class .mobile_team1_score{
+    margin-left: -3%;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.parent_mobile_class .mobile_score_text{
+    font-size: 12px;
+    font-weight: 600;
+    color: #7474a0;
+}
+.parent_mobile_class .mobile_team2_score{
+    margin-left: 10%;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.parent_mobile_class .mobile_team1{
+    padding-right: 5%;
+    text-align:right;
+}
+.parent_mobile_class .mobile_vs{
+    padding-right: 6%;
+}
+.parent_mobile_class .mobile_team2_score{
+    margin-left: 10%;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.parent_mobile_class .mobile_result{
+    padding: 6%;
+    background: #f1f2f3;
+    text-align: center;
+    border-radius: 11px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    width: 95%;
+}
+.parent_mobile_class .margintopclass{
+    margin-top:5%;
+}
+.parent_mobile_class{
+    background: white;
+    width: 345px;
+    border-radius: 11px;
+    margin: auto;
+    height: 203px;
+}
+
+@media (min-width: 1281px) {
+    .match_display_parent_div {
+        width: 65%;
+        display:inherit;
+        margin-left: 22%;
+    }
+    .parent_mobile_class{
+        display:none
+    }
+    .match_display_parent_div .team1{
+        
+        padding-right: 5%;
+        margin-left: 5%;
+    }
+    .match_display_parent_div .teams{
+            margin-left: 12%
+        
+    }
+
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .match_display_parent_div {
+        width: 83%;
+        display:inherit;
+    }
+    .parent_mobile_class{
+        display:none
+    }
+    .match_display_parent_div .team1{
+       
+        padding-right: 5%;
+    }
+  }
+  @media only screen and (min-width: 1024px) and (max-height: 1366px)
+    and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) {
+       .parent_monthyear_div {
+        overflow-x: scroll;
+        margin-left: 20%;
+        width: 66%;
+        }
+        .match_display_parent_div .teams {
+            margin-left: 14%!important;
+        }
+        .match_display_parent_div .row {
+            text-align: center!important;
+            padding-left: 2%!important;
+            margin-left: -2%!important;
+            text-align: center!important;
+            padding-left: 2%!important;
+            margin-left: -9%!important;
+            width: 89%!important;
+        
+        }
+        .match_display_parent_div .team1{
+            padding-right: 5%;
+            margin-left: -1%;
+        }
+}
+@media only screen and (min-width: 1024px) and (max-height: 1366px)
+and (-webkit-min-device-pixel-ratio: 1.5) and (hover: none) and (orientation: landscape)  {
+    .match_display_parent_div .teams {
+        margin-left: 9%!important;
+    }
+    .match_display_parent_div .team1{
+        padding-right: 5%;
+        margin-left: -1%;
+    }
+    .match_display_parent_div .row {
+        margin-left: 3%!important;
+    }
+}
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  @media (min-width: 576px){
+    .match_display_parent_div .col-sm-2 {
+    flex: 0 0 16.666667%;
+    max-width: 21.666667%!important;
+    }
+    .match_display_parent_div .row{
+        width:99%!important;
+    }
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .match_display_parent_div .row {
+        text-align: center;
+        padding-left: 2%;
+        margin-left: -1%;
+        width: 95%!important;
+    }
+    .match_display_parent_div .team1{
+        
+        padding-right: 5%;
+    }
+    .match_display_parent_div .teams {
+        margin-left:2%;
+    }
+    .parent_mobile_class{
+        display:none
+    }
+    .match_display_parent_div{
+        display:inherit;
+    }
+    .match_display_parent_div .scores {
+        margin-left:-28%;
+        font-size:14;
+    }
+    .match_display_parent_div .team1score{
+        font-size:14px;
+    }
+    .match_display_parent_div .team2score{
+        font-size:14px;
+    }
+    .match_display_parent_div .score_text{
+        font-size: 15px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .match_display_parent_div {
+        width: 92%;
+        margin-left: 17%
+    }
+    .parent_mobile_class{
+        display:none
+    }
+    .match_display_parent_div .row {
+        text-align: center;
+        padding-left:2%;
+        width: 79%!important;
+        margin-left: 4%!important;
+        
+    }
+    .match_display_parent_div .scores {
+        margin-left:-20%;
+    }
+    .match_display_parent_div .teams {
+        margin-left:19%!important
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .parent_mobile_class{
+        display:inherit;
+    }
+    .match_display_parent_div .row {
+        display:none
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .parent_mobile_class{
+        display: inherit;
+    }
+    .match_display_parent_div{
+       display:none;
+    }
+    
+  }

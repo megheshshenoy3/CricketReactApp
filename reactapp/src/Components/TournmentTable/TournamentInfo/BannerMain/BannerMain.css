@@ -1,0 +1,42 @@
+
+.banner_name {
+    font-family: 'Anton', sans-serif;
+    font-size: 41px;
+    letter-spacing: 5px;
+}
+.banner_header{
+    display:flex;
+    background:white;
+    align-items:center;
+    justify-content:center;
+    width: 100%;
+}
+@media (min-width: 1281px) {
+  
+    .banner_header{
+    width: 73%;
+    }  
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .banner_header{
+    width: 73%;
+     }
+    
+  }
+@media screen and (max-width: 767px){
+    .banner_header{
+     width:100%!important;
+     justify-content:inherit;
+    }
+    .banner_name{
+        font-size: 31px;
+    }
+}

@@ -1,0 +1,123 @@
+.first_name_design{
+    display:block;
+}
+.second_name_design{
+    font-weight:600;
+}
+.image_block{
+    margin:5%;
+    border: 4px solid #c4c4c4;
+    border-radius: 74px;
+}
+.parent_para_container{
+    margin-top: 9%;
+}
+.result_digit{
+font-family: Poppins,sans-serif;
+font-weight: 600;
+}
+.result_style{
+    font-family: Poppins,sans-serif;
+    
+}
+.parent_container{
+    display:flex;
+    border: 3px solid white;
+}
+.parent_container:hover{
+    border: 3px solid #c1daff!important;  
+}
+.remove_outline:hover{
+    outline:none;
+    text-decoration:none;
+}
+.player_list_parent{
+    margin-left: 19%;
+}
+.search_bar_parent_div{
+    border: 1px solid;
+    width: 52%;
+    margin-top: 5%;
+    margin-left: 17%;
+    display: flex;
+    border-radius: 90px;
+}
+.search_bar_input{
+    border: none;
+    width: 94%;
+    font-size: 20px;
+    padding-left: 0%;
+    margin-left: 6%;
+    padding: 1%;
+}
+.search_logo{
+    font-size: 22px;
+    color: #9a9a9a;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+.search_bar_input:focus{
+    outline:none;
+}
+.search_icon_div{
+    background: #ffffff;
+    width: 48px;
+    height: 45px;
+    padding: 10px;
+    border-top-right-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+
+@media (min-width: 1281px) {
+  
+    .Player_tournament_search_bar_parent {
+        margin-left: 17%!important;
+    }
+    
+  }
+  @media (min-width: 1025px) and (max-width: 1280px) {
+  
+    .Player_tournament_search_bar_parent {
+        margin-left: 17%!important;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+ 
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2){
+    .player_list_parent {
+        margin-left: 25%;
+    }
+    .Player_tournament_search_bar_parent {
+        margin-left: 17%!important;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .Player_tournament_search_bar_parent {
+        margin-left:6%!important;
+    }
+
+  }
+@media screen and (max-width: 767px){
+    .player_list_parent{
+        margin-left: 4%;
+    }
+    .first_name_design{
+        display:inherit!important;
+    }
+  }

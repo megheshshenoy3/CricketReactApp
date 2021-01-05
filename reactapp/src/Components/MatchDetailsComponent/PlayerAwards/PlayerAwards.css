@@ -1,0 +1,56 @@
+.bowler_ofthe_match_parent{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+}
+.bowlerimageandname{
+    display:flex;
+    flex-direction: row;
+}
+.shortname{
+    display:none;
+    font-family: Poppins,sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+.bowler_name{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: Poppins,sans-serif;
+}
+.bowler_image{
+    border-radius: 60px;
+    border: 3px solid #cecdcd;
+    width: 91px;
+}
+.bowler_image{
+    border-radius: 60px;
+    border: 3px solid #cecdcd;
+    width: 91px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .shortname{
+    display:initial
+     } 
+     .category_text{
+         display:none;
+     }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .shortname{
+        display:initial
+     }
+     .category_text{
+        display:none;
+    }
+    
+  }

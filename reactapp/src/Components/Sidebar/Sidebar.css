@@ -1,0 +1,204 @@
+.sidebar_design{
+    height:100%;
+    background:#212121;
+    box-shadow:2px 0px 5px rgba(0,0,0,0.5);
+    position:fixed;
+    top:0;
+    left:0;
+    width:70%;
+    max-width:210px;
+    z-index:200;
+    transform: translateX(-19%);
+    transition:transform 1s ease;
+    z-index:400;
+}
+.sidebar_link{
+  text-decoration:none;
+}
+.sidebar_link:hover{
+  text-decoration:none;
+}
+.ul_design{
+    list-style:none;
+    display:flex;
+    flex-direction: column;
+    padding-top: 57%;
+}
+.open{
+    transform: translateX(-20%)!important;
+}
+.ul_design li{
+    font-family: 'Poppins', sans-serif;
+    
+    padding: 11%;
+}
+li:hover{
+    color: #fff;
+    background: #2f89fc;
+    border-bottom: 1px solid #2f89fc;
+}
+.sidebar_design .active{
+    color: #fff;
+    background: #2f89fc;
+    border-bottom: 1px solid #2f89fc;
+}
+.unactive{
+color: #bdb0b0;
+}
+.parent_design{
+    width: 29%;
+    transform: translateY(-1500px)rotate(90deg);
+    padding: 1%;
+    background:white;
+    margin-left: 6%;
+    transition:transform 1s ease;
+}
+.first_option{
+    transform: translateY(153px)rotate(90deg)!important;
+}
+.second_option{
+    transform: translateY(214px)rotate(90deg)!important;
+}
+.third_option{
+    transform: translateY(275px)rotate(90deg)!important;
+}
+.fourth_option{
+    transform: translateY(337px)rotate(90deg)!important;
+}
+.fifth_option{
+    transform: translateY(398px)rotate(90deg)!important;
+}
+
+/* .upward_flow_design{
+    padding: 4%;
+    background: #cec9c9;
+    height: 5px;
+    float: left;
+    border-bottom: 1px solid red;
+    animation-name: width_upward;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+     
+
+} */
+
+.downward_flow_design{
+    padding: 4%;
+    background: black;
+    height: 5px;
+    animation-name: width_downward;
+    
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+}
+@keyframes width_upward {
+    from {width:0%;}
+    to {width: 200%;}
+  }
+  @keyframes width_downward {
+    from {width:0%;}
+    to {width: 200%;}
+  }
+  @media (min-width: 1281px) {
+  
+    .show_hamburger{
+        display:none
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .show_hamburger{
+        display:none
+    }
+    .sidebar_design{
+        transform: translateX(-20%);
+        transition:transform 1s ease;
+        z-index:400;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .show_hamburger{
+        display:none
+    }
+    .sidebar_design{
+        transform: translateX(-20%);
+        z-index:400;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .show_hamburger{
+        display:none;
+    }
+    .sidebar_design{
+        transform: translateX(-19%);
+        z-index:400;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .show_hamburger{
+        display:inherit;
+    }
+    .sidebar_design{
+        transform: translateX(-1000px);
+        transition:transform 1s ease;
+        z-index:400;
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .show_hamburger{
+        display:inherit;
+    }
+    .sidebar_design{
+        transform: translateX(-1000px);
+        transition:transform 1s ease;
+        z-index:400;
+    }
+    
+  }
+  @media screen and (max-width: 767px){
+  .show_hamburger{
+    display:inherit;
+     }
+   .sidebar_design{
+    transform: translateX(-1000px);
+    transition:transform 1s ease;
+    z-index:400;
+}
+}

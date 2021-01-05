@@ -1,0 +1,110 @@
+.main_parent_div{
+
+}
+@media (min-width: 1281px) {
+  
+    .main_parent_div{
+        margin-left:21%;
+     }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    .main_parent_div{
+        margin-left:21%;
+     }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .main_parent_div{
+        margin-left:25%;
+     }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .main_parent_div {
+        margin-left: 19%!important;
+    }
+    
+  }
+  @media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .main_parent_div{
+        margin-left: 19%;
+        margin-top: 3%;
+    padding-bottom: 63%;
+     }
+  }
+
+/* Portrait */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    .main_parent_div{
+        margin-left: 19%;
+        margin-top: 3%;
+    padding-bottom: 63%;
+     }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+   .main_parent_div {
+    margin-left: 16%;
+    margin-top: 3%;
+    padding-bottom: 63%;
+   }
+}
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .main_parent_div{
+        margin-left:0%;
+     } 
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .main_parent_div{
+
+}
+    
+  }

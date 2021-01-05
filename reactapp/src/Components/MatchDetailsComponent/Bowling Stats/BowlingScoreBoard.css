@@ -1,0 +1,367 @@
+.bowling_flagicon{
+    width: 23px;
+    padding-left: 1%;
+}
+.bowling_text_image{
+    padding-right: 1px;
+    border-top-right-radius: 19px;
+    border-bottom-right-radius: 19px;
+    padding-bottom: 1%;
+}
+.extras .extras_number_figure{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+.bowling_stats .total_scoreboard{
+    display: flex;
+    width: 77%;
+    padding: 1% 0% 1% 0%;
+    border: 1px solid #dedede;
+    border-bottom: none;
+}
+.total_scoreboard .total_text{
+    flex-basis: 77%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.total_scoreboard .total_runs{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 19px;
+}
+.total_scoreboard .total_over{
+    font-weight: 100;
+    font-size: 12px;
+}
+.total_scoreboard .required_rate_text{
+    padding: 0% 8%;
+}
+.total_scoreboard .required_rate{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.bowling_stats .extras_divider{
+    flex-basis: 77%;
+}
+.bowling_stats  .extras{
+    display: flex;
+    width: 77%;
+    padding: 1% 0% 1% 0%;
+    border: 1px solid #dedede;
+    border-bottom: none;
+    font-family: 'Poppins', sans-serif;
+}
+.bowling_stats .subscript_text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    padding-top: 5px;
+    font-weight:400;
+}
+.bowling_stats .extras_text{
+    font-weight: 600;
+}
+ 
+.bowling_stats table {
+    width: 77%!important;
+    border: 1px solid #dedede;
+}
+.ball_icon{
+    width:14px;
+}
+.bowling_stats th td{
+    text-align:center;
+}
+.bowling_stats th {
+    text-align:center;
+}
+.bowling_stats td{
+    color:black!important;
+}
+.bowling_stats .bowlers_text_alignment {
+    font-size: 14px;
+}
+.bowling_stats td {
+    color: black!important;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.bowling_stats tr {
+    height: 46px;
+}
+@media (min-width: 1281px) {
+  
+    
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    
+    
+  }
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  {
+    .bowling_stats table {
+        width: 96%!important;
+    }
+  }
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape){
+    .bowling_stats .total_scoreboard {
+        width: 96%;
+    }
+    .bowling_stats .extras {
+        width: 96%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .bowling_stats table {
+        width: 98%!important;
+    }
+    .bowling_stats .extras {
+        width: 98%;
+    }
+    .bowling_stats .total_scoreboard {
+        width: 98%;
+    }
+    .bowling_stats .extras_text{
+        font-size: 14px;
+    }
+    .bowling_stats .subscript_text{
+        flex-basis: 26%;
+        padding-top: 1%;
+        font-size: 9px;
+    }
+    .bowling_stats .extras_number_figure{
+        font-size:14px;
+    }
+    .total_scoreboard .total_text {
+        font-size: 14px;
+    }
+    .total_scoreboard .total_runs{
+        font-size: 16px;
+        
+    }
+    .total_scoreboard .total_over{
+        font-size: 12px;
+    }
+    .total_scoreboard .required_rate_text {
+        padding: 0% 8%;
+        font-size: 14px;
+    }
+    .total_scoreboard .required_rate {
+        font-size: 14px;
+        
+    }
+    .total_scoreboard .total_text {
+        flex-basis: 59%;
+    }
+    .total_scoreboard .required_rate_parent{
+        font-size: 12px;
+    }
+    .bowling_stats .extras_divider {
+        flex-basis: 39%;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .bowling_stats table {
+        width: 94%!important;
+    }
+    .bowling_stats table {
+        width: 94%!important;
+    }
+    .bowling_stats .extras {
+        width: 94%;
+    }
+    .bowling_stats .total_scoreboard {
+        width: 94%;
+    }
+    .bowling_stats .extras_text{
+        font-size: 14px;
+    }
+    .bowling_stats .subscript_text{
+        flex-basis: 26%;
+        padding-top: 1%;
+        font-size: 9px;
+    }
+    .bowling_stats .extras_number_figure{
+        font-size:14px;
+    }
+    .total_scoreboard .total_text {
+        font-size: 14px;
+    }
+    .total_scoreboard .total_runs{
+        font-size: 16px;
+        
+    }
+    .total_scoreboard .total_over{
+        font-size: 12px;
+    }
+    .total_scoreboard .required_rate_text {
+        padding: 0% 8%;
+        font-size: 14px;
+    }
+    .total_scoreboard .required_rate {
+        font-size: 14px;
+        
+    }
+    .total_scoreboard .total_text {
+        flex-basis: 59%;
+    }
+    .total_scoreboard .required_rate_parent{
+        font-size: 12px;
+    }
+    .bowling_stats .extras_divider {
+        flex-basis: 39%;
+    }
+    
+    
+    
+  }
+  
+  @media screen and (max-width: 767px){
+  .bowler_name{
+      font-size:12px!important;
+  }
+}
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .bowling_stats table {
+        width: 99%!important;
+        margin: auto;
+    }
+    .bowling_stats .bowlers_text_alignment {
+        font-size: 10px;
+    }
+    .bowling_stats th{
+        font-size:12px;
+    }
+    .bowling_stats td{
+        font-size:12px;
+    }
+    .bowling_stats .extras {
+        width: 99%;
+        margin:auto;
+    }
+    .bowling_stats .extras_text{
+        font-size: 12px;
+    }
+    .bowling_stats .subscript_text{
+        flex-basis: 32%;
+    }
+    .bowling_stats .extras_number_figure{
+        font-size:12px;
+    }
+    .bowling_stats .total_scoreboard {
+        width: 99%;
+        margin:auto;
+    }
+    .total_scoreboard .total_text {
+        font-size: 12px;
+    }
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .bowling_stats table {
+        width: 99%!important;
+        margin: auto;
+    }
+    .bowling_stats .bowlers_text_alignment {
+        font-size: 10px;
+    }
+    .bowling_stats th{
+        font-size:12px;
+    }
+    .bowling_stats td{
+        font-size:12px;
+    }
+    .bowling_stats .extras {
+        width: 98%;
+        margin:auto;
+    }
+    .bowling_stats .total_scoreboard {
+        width: 98%;
+        margin:auto;
+    }
+    .bowling_stats .extras_text{
+        font-size: 12px;
+    }
+    .bowling_stats .subscript_text{
+        flex-basis: 26%;
+        padding-top: 1%;
+        font-size: 8px;
+    }
+    .bowling_stats .extras_number_figure{
+        font-size:12px;
+    }
+    .bowling_stats .total_scoreboard {
+        width: 99%;
+        margin:auto;
+    }
+    .total_scoreboard .total_text {
+        font-size: 12px;
+    }
+    .total_scoreboard .total_runs{
+        font-size: 14px;
+        
+    }
+    .total_scoreboard .total_over{
+        font-size: 10px;
+    }
+    .total_scoreboard .required_rate_text {
+        padding: 0% 8%;
+        font-size: 12px;
+    }
+    .total_scoreboard .required_rate {
+        font-size: 13px;
+        
+    }
+    .total_scoreboard .total_text {
+        flex-basis: 59%;
+    }
+    .total_scoreboard .required_rate_parent{
+        font-size: 12px;
+    }
+    .bowling_stats .extras_divider {
+        flex-basis: 39%;
+    }
+  }
